@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+.list {
+	text-align: left;
+}
+
+p{
+	font-size: 18px;
+	color: turquoise;
+}
+.header__text {
+	font-size: 22px;
+	color: rgb(252, 104, 6);
+	text-align: center;
+}
+.text{
+	color: tomato;
+}
+span{
+	color: saddlebrown;
+}
+
+#message{
+	
+	color: salmon;
+}
+
+h1{
+	color: red;
+	font-size: larger;
+	text-align: center;
+}
+
+h2{
+	color: purple;
+	text-align: center;
+}
+h3{
+	color: turquoise;
+	text-align: center;
+}
+.image{
+	text-align: center;
+}
+.paragraph ~ p{
+	color:yellowgreen
+}
+.paragraph > span {
+	color: violet;
+}
+p {
+	color: slategrey;
+}
+.text__item + p {
+	color: green;
+}
+.text__item{
+	color: maroon;
+}
+
+footer{
+	font-size: 16px;
+	color: slateblue;
+}
