@@ -1,0 +1,178 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:regular,700,italic,700italic&display=swap&subset=cyrillic-ext');
+
+@import url('https://fonts.googleapis.com/css?family=Jura:regular,700&display=swap&subset=cyrillic-ext');
+
+/* 
+выделяем url и начало названия
+ctrl + h 
+копируем с верхнего поля в нижнее
+добавляем после кавычки ../fonts/
+нажимаем Replace All
+*/
+@font-face {
+	font-family: 'AC Line';
+	src: url('../fonts/ACLine.woff2') format('woff2'),
+		 url('../fonts/ACLine.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+	font-size: inherit;
+	font-family: 'AC Line';
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	background-color: #ffffff;
+	font-size: 22px;
+	font-family: 'Jura';
+}
+/* ________________ */
+
+
+/* Логотип */
+.logo{
+	width: 100px;
+}
+.header__logo{
+	margin: 10px;
+}
+/* верхняя часть заголовок*/
+
+.head__text{
+	text-align: center;
+	margin: 26px auto;
+}
+.title1{
+	font-size: 50px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	color:  #330000;
+}
+.paragraph__head{
+	color: rgb(72, 81, 90);
+	font-size: 40px;
+	color: #734d26;
+}
+.paragraph__headtext{
+	text-align: left;
+	width: 600px;
+	margin: 50px auto;
+}
+
+.image1{
+	max-width: 500px;
+	min-width: 150px;
+	margin: 34px 89px 24px 400px;
+}
+
+.block__text1{
+	margin: 60px;
+
+}
+.title2{
+	padding: 20px;
+	font-size: 36px;
+	color:	 #ff1a1a;
+}
+.paragraph__text2{
+	text-align: center;
+	overflow: auto;
+	max-width: 550px;
+	height: 200px;
+	margin: 20px  auto;
+}
+
+.block__imageup{
+	background-color:#ffcc99 ;
+	padding: 150px;
+	width: 700px;
+	font-style: italic;
+	box-sizing: padding-box;	
+}
+
+.image2{
+	width: 500px;
+	margin: -470px 94px;
+}
+
+
+.block__text3{
+	margin:30px -20px;
+background-color: #e6ccb3;
+
+}
+.paragraph__text3{
+	margin-left: 150px;
+	text-decoration: underline;
+}
+
+.block__text4{
+background-color: #ffecec;
+color:#4d0000;
+height:100% ;
+margin: 30px  452px;
+}
+
+.paragraph__text4{
+margin:0px 0px 0px 0px;
+text-align: center;
+
+}
+.style04{
+color: #ff3300;
+font-weight: 700;
+text-transform: uppercase;
+}
+.block__text5{
+padding: 60px;
+}
+
+.paragraph__text5{
+	display: inline;
+	background-color: #f2d9e6;
+	padding: 10px 20px;
+	line-height: 48px;
+}
+
+footer{
+color: #990033;
+text-align: center;
+}
+
+.link{
+	display: inline-block;
+	background-color: #e6ccb3;
+	margin: 30px 0px 30px 0px;s
+}
