@@ -119,7 +119,6 @@ body {
 	padding: 150px;
 	width: 700px;
 	font-style: italic;
-	box-sizing: padding-box;	
 }
 
 .image2{
@@ -155,6 +154,7 @@ color: #ff3300;
 font-weight: 700;
 text-transform: uppercase;
 }
+
 .block__text5{
 padding: 60px;
 }
@@ -174,5 +174,5 @@ text-align: center;
 .link{
 	display: inline-block;
 	background-color: #e6ccb3;
-	margin: 30px 0px 30px 0px;s
+	margin: 30px 0px 30px 0px;
 }
