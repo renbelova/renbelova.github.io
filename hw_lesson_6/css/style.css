@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC:300,regular,500,600,700');
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+	font-family: 'Spectral SC';
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #000;
+	font-family: 'Cormorant SC';
+	background-color:white;
+	font-size: 20px;
+
+}
+/* ------------------ */
+.container{
+max-width: 1700px;
+margin: 0 auto;
+background-color:#f0f0f5;
+}
+
+.logo{
+	padding: 10px;
+}
+.imagelogo{
+	width: 100px;
+	height: 100px;
+	margin: 0px auto ;
+	display: block;
+	border-radius: 50%;
+}
+
+.header {
+	margin-top: 15px;
+	background-color:#ccffcc;
+}
+.menu {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+ .menu  li{
+	display: inline-block;
+	font-size: 24px;
+	padding-left: 20px;
+	text-align: center;
+	} 
+	
+	.menu li a{
+		color:#003300;
+	}
+
+	.block1{
+	background-color:#d5ff80;
+	max-width: 400px;
+	margin: 10px auto;
+}
+/* повторим задания с прошлого урока чтобы понимать ка кэто работает  */
+.items {
+	background-color: #d6f5d6 ;
+margin-bottom: 15px;
+}
+.item {
+	background-color:#ffdb4d;
+	display: inline-block;
+	width: 400px;
+	padding: 20px ;
+	color: #8f00b3;
+	vertical-align: middle;
+}
+/* попробуем сделать с артиклом */
+.article {
+	max-width: 800px;
+	background-color:#ff99bb;
+	padding:10px;
+	font-size: 22px;
+	margin: 0px auto;
+}
+.article__image{
+	width: 200px;
+	float: left;
+	padding: 5px;
+
+}
+.item__image{
+	clear: both;
+}
+.newlesson{
+	background-color:#1a000d;
+	border-bottom: 10px dotted #ffff00;
+	border-top: 10px double #ffff00;
+	margin: 30px;
+	color: white;
+	text-align: center;
+}
+/* тема урока границы  */
+.block2 {
+	background-color: #66ff33;
+	width: 400px;
+	margin: 50px auto;
+	border:15px solid #330014;
+	padding: 20px;
+	border-radius:15px 96px;
+}
+.inline1 {
+	background-color: #ac00e6;
+	color:whitesmoke;
+	border:10px dotted #80ff00;
+	line-height: 50px;
+	border-radius:20px;
+}
+/* сделала границы картинкам котикам */
+.border__images{
+	max-width: 800px;
+	padding: 30px;
+	margin: 0px auto;
+	display: inline;
+}
+.border__image{
+	padding: 5px;
+	margin: 50px 210px;
+	vertical-align: middle;
+	border-left:15px dashed #ff0066;
+	border-right:15px dotted #ff0066;
+	max-width: 400px;
+	border-radius: 0px 25px 96px 188px;
+
+}
+/* свойство outline и hover */
+.scroll{
+	display: inline-block;
+	background-color: #800080;
+	color:#ffff99;
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+	margin: 50px 50px 50px 100px;
+	overflow: auto;
+	outline:10px dotted   #ff3300;
+}
+.scroll:hover {
+	outline:0px dotted  transparent
+}
+/* box shadow */
+.shadow{
+	background-color:#4775d1;
+	padding:30px;
+	margin: 50px 200px 50px 200px;
+	box-shadow:inset 0px 0px 10px 5px #1a0000af, 1px 5px 10px 15px #cc000077;
+}
+
+/* opacity */
+.block__opacity{
+	background-color: #2db300;
+	padding: 30px;
+	margin: 50px 400px;
+	
+
+}
+.block__span{
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	opacity: 0.5;
+	color: #ff0000;
+
+}
+/* визабилити  */
+.visible{
+	background-color: tomato;
+	padding: 30px;
+	margin: 50px 400px;
+	color: purple;
+}
+.span__visible{
+	visibility: hidden;
+}
+/* котонопочки */
+.button1{
+background:#ff66ff;
+color: #4d004d;
+text-align: center;
+display:block;
+max-width: 227px;
+line-height: 27px;
+padding: 15px 10px;
+font-weight: 700;
+font-size: 26px;
+margin: 10px auto;
+box-shadow:0px 0px 10px 5px rebeccapurple;
+}
