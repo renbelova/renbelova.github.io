@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 8 homework</title>
+</head>
+
+<body>
+	<header class="header">
+		<a class="button " href="">Псевдоклассы состояния</a>
+		<a class="button" href="">Псевдоклассы положения</a>
+		<a class="button" href="">Псевдоэлементы</a>
+
+	</header>
+
+	<main class="main">
+
+		<h1> пы.сы. говорю сразу что по мне прокатилось стадо медведей и попрыгало на моих глахах
+			поэтому я и дизайн это дело отдельно :D,
+			просто стараюсь понять работу всего этого </h1>
+		<h2> :active :visited :focus </h2>
+		<div class="block1">
+			<a target="_blanc" class="link" href="https://www.google.com">Это линк со свойством <span>visited и при нажатии
+					работает active а еще она в фокусе </span></a>
+		</div>
+		<h2>:target</h2>
+		<a href="#open" class="textopen">Тыкни мышкой откроется окошко </a>
+		<div id="open" class="open">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, ipsam veniam
+			totam ipsum
+			ratione hic reiciendis harum maxime! Quod quisquam neque accusamus aspernatur eligendi beatae! Eius ex suscipit
+			in
+			saepe?
+			Excepturi eveniet voluptatem repellat omnis aliquid necessitatibus blanditiis molestiae ut, fugiat saepe
+			suscipit
+			sint, minus maxime adipisci reprehenderit magni culpa incidunt velit veritatis odit hic doloremque expedita
+			vitae
+			a. Libero!
+			<a href="#" class="close">Тыкни мышкой закроется окошко </a>
+		</div>
+		<h2>Будет меняться картинка :hover </h2>
+		<p class="text__rollover"> Просто наведи на картинку</p>
+		<a href="#" class="rollover"> </a>
+		<h2>:first-child, :first-of-type :last-child</h2>
+		<div class="text1">
+			<!-- тут Пробуем использовать :first-child к первым элементам  которые тут будут  -->
+			<span>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deserunt mollitia cumque praesentium
+				quod, tempora eos aspernatur animi commodi nemo iure reiciendis aperiam ipsam! Qui ratione voluptatibus ea
+				fugiat veniam.
+				Facere eius unde explicabo incidunt molestias accusamus numquam ad nostrum sint ipsam facilis, quisquam
+				perferendis vitae vero placeat labore alias molestiae corporis blanditiis qui corrupti voluptatem commodi.
+				Cupiditate, aliquid eum.</span>
+			<!-- тут попробуем использовать first of type к элементам р которые тут будут  -->
+			<p><img src="img/image5.jpeg" alt="загрузка мозга"></p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem error nam distinctio ducimus, unde sunt
+				fugit reiciendis tenetur nostrum iure soluta esse hic modi quidem quod voluptatem animi veniam dolore?Lorem
+				ipsum dolor sit amet consectetur, adipisicing elit. Explicabo consequatur et quas voluptas nulla quos
+				temporibus obcaecati porro aperiam dolorum, ipsa doloribus non accusantium, consequuntur aliquam minus
+				beatae perspiciatis fugiat!</p>
+
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem error nam distinctio ducimus, unde sunt
+				fugit reiciendis tenetur nostrum iure soluta esse hic modi quidem quod voluptatem animi veniam dolore?</p>
+			<!-- тут Пробуем использовать :last-child к первым элементам  которые тут будут  -->
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore unde ipsa culpa consectetur, officiis
+				facilis nobis porro nisi architecto non sed, doloribus voluptate harum, impedit quo nostrum reiciendis
+				nesciunt repudiandae.
+				Harum blanditiis temporibus magni laboriosam illum suscipit, ea maxime. Doloribus consectetur fuga porro
+				cupiditate debitis sapiente! Id quaerat aliquid dignissimos similique reiciendis, rerum consectetur
+				consequatur earum sed vero eos commodi!</p>
+			<span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque autem repellendus error expedita
+				assumenda unde laboriosam, quia quae maxime, ducimus recusandae eveniet accusamus eum, asperiores eligendi!
+				Reiciendis odit aliquam dicta.
+				Cum quis, voluptatum corporis velit ratione provident? Earum aspernatur quo ducimus numquam. Atque excepturi
+				nam commodi velit ipsa deleniti. Obcaecati aliquid maiores tempore quae nemo expedita dolores vel!
+				Reiciendis, corrupti?
+				Dolore accusamus, repellat id ipsam amet quidem non, animi ipsa natus sequi, eius facere voluptate mollitia.
+				Deserunt ratione quis dolor perspiciatis doloremque quaerat maiores, quo alias dicta! Consectetur, ipsum
+				tempora!</span>
+
+		</div>
+		<h2> :nth-child() , :nth-of-type()</h2>
+		<div class="text2">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi commodi, maxime accusamus tempore hic
+				iusto tempora illo quo impedit perspiciatis quod voluptatum odio neque architecto tenetur culpa quos soluta.
+			</p>
+
+			<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ratione cum adipisci numquam eius quod
+				impedit provident eos quas sit, molestias in magnam porro dicta facilis? Provident ratione voluptatem
+				voluptas.</span>
+
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, obcaecati. Perferendis cupiditate
+				fugiat facere ut cumque. Odit laboriosam totam aliquam, adipisci harum veritatis, cumque, perferendis
+				deleniti est dolores in iure.</p>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, obcaecati. Perferendis cupiditate
+				fugiat facere ut cumque. Odit laboriosam totam aliquam, adipisci harum veritatis, cumque, perferendis
+				deleniti est dolores in iure.</p>
+			<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ratione cum adipisci numquam eius quod
+				impedit provident eos quas sit, molestias in magnam porro dicta facilis? Provident ratione voluptatem
+				voluptas.</span>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed modi commodi, maxime accusamus tempore hic
+				iusto tempora illo quo impedit perspiciatis quod voluptatum odio neque architecto tenetur culpa quos soluta.
+			</p>
+
+		</div>
+		<h2>::first-line , ::first-letter</h2>
+		<div class="text3">
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae accusantium totam quia eum, optio nam
+				harum omnis ut corrupti, repellendus, maiores minus reprehenderit qui! Architecto natus iusto vitae a odit.
+			</p>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae accusantium totam quia eum, optio nam
+				harum omnis ut corrupti, repellendus, maiores minus reprehenderit qui! Architecto natus iusto vitae a odit.
+			</p>
+			<span>Lorem, ipsum.</span>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae accusantium totam quia eum, optio nam
+				harum omnis ut corrupti, repellendus, maiores minus reprehenderit qui! Architecto natus iusto vitae a odit.
+			</p>
+			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae accusantium totam quia eum, optio nam
+				harum omnis ut corrupti, repellendus, maiores minus reprehenderit qui! Architecto natus iusto vitae a odit.
+			</p>
+
+
+		</div>
+		<h2>::before, ::after</h2>
+		<ul>
+			<li>первый</li>
+			<li>второй</li>
+			<li>средний</li>
+			<li>последний</li>
+		</ul>
+		<div class="block2">
+
+			Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod quo reprehenderit quisquam? At explicabo hic
+			dicta velit voluptatem, molestiae quos eaque nulla sed, dolorum dolores corporis nobis magni aperiam minus?
+			Molestias accusamus officiis corporis cupiditate odit, temporibus ipsam dicta praesentium ad eum eaque labore
+			facilis asperiores impedit! Dicta nemo dignissimos molestias dolorem? Dolor libero id soluta commodi eius
+			dolorum explicabo.
+		</div>
+	</main>
+
+	<footer class="footer">
+		<h2>линия под заголовком</h2>
+		<div class="title">Lorem ipsum dolor sit amet.</div>
+	</footer>
+
+</body>
+
+</html>
